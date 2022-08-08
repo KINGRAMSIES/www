@@ -1,0 +1,39 @@
+
+body{
+	width: 60%;
+	margin: auto;
+}
+nav a{
+	text-decoration: underline;
+	color: crimson;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20% 20%;
+}
+nav ul li a:hover{
+	background-color: yellow;
+}
+#a{
+	width: 70%;
+	background-color: red;
+	height: 50%;
+	float: right;
+	animation: myfirstanimation 10s;
+}
+@keyframes myfirstanimation{
+	from{background: crimson;}
+	to{background: red;}
+}
+#b{
+	width: 70%;
+	background-color: red;
+	height: 70%;
+	float: right;
+}
+footer{
+	background-image: linear-gradient(yellow,crimson);
+	text-align: center;
+	padding: 20%;
+	color: red;
+}
